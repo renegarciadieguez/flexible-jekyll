@@ -3,8 +3,8 @@ layout: post
 title: Setting up GitHub Pages
 date: 2020-11-19 20:40:20 -0800
 description: This pages describes the steps to setup a GitHub pages site.
-img: workflow.jpg # Add image post (optional)
-fig-caption: # Add figcaption (optional)
+img: github-pages.jpg
+fig-caption: GitHub Pages
 tags: [GitHub, Pages, First]
 ---
 This first post will describe the steps required to setup and customize the a new GitHub Pages site using the theme
@@ -34,3 +34,7 @@ The `_posts` directory contains a series of `.markdown` files. Delete all the fi
 I kept was renamed to `_posts/2020-11-19-setting-up-github-pages.markdown` and it resulted in the post you're
 [reading](https://renegarciadieguez.github.io/flexible-jekyll/setting-up-github-pages/).
 
+## Layout ##
+The `_layouts` directory contains [Liquid](https://jekyllrb.com/docs/step-by-step/02-liquid/) templates. That's where
+you will be able to find html components used to frame the site. For example I removed the "Contact Me" section
+completely, but you can add and update the icons or add more relevant information. 
