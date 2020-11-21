@@ -437,19 +437,20 @@ template {
 }
 
 .highlight {
-  background-color: #faf9f9;
+  background-color: #4a3939;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   margin: 0;
 }
 
 .highlighter-rouge {
+  background-color: #4a3939;
   color: #ce887b;
   font-weight: 400;
   border: 1px solid #607D8B;
   -webkit-border-radius: 3px;
           border-radius: 3px;
-  padding: 0.1rem 0.5rem;
+  padding: 0.1rem 0.1rem;
 }
 
 .highlight .hll {
@@ -809,7 +810,7 @@ blockquote {
 }
 
 pre {
-  padding: 1rem 2rem;
+  padding: 0.1rem 0.1rem;
   overflow: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
